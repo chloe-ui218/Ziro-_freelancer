@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+    /*navigatin-part*/
+    
+    #navigation-bar{
+        display: flex;
+        background-color: rgb(198, 198, 255);
+    }
+    .navigation{
+        justify-content: start;
+        padding-left: 20px;
+        padding-right: 220px;
+    }
+    .nav_items{
+        display: flex;
+        gap: 2rem;
+        padding-top: 20px;
+    }
+    .nav_items a{
+        text-decoration: none;
+        color: black;
+    }
+    .register{
+        display: flex;
+        padding-top: 20px;
+        padding-left: 400px;
+        gap: 10px;
+    }
+    .log-in button{
+        height: 30px;
+        width: 50px;
+        background-color: rgb(181, 181, 255);
+        border: none;
+        border-radius: 20px;
+    }
+    .sign-in button{
+        height: 30px;
+        width: 80px;
+        background-color: rgb(105, 105, 231);
+        border: none;
+        border-radius: 20px;
+    }
+
+/*main-container*/
+.information-div{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 7rem;
+}
+.options-container ul li{
+    display: grid;
+    justify-self: center;
+}
+.options-container ul li a{
+    text-decoration: none;
+    margin: 10px;
+}
+    /*footer section*/
+#footer{
+    background-color: rgb(181, 181, 255);
+    height: 300px;
+}
+.footer-content-1{
+    padding-top: 40px;
+}
+.icon-logo{
+    padding-top: 100px;
+}
+.icon-logo a{
+    padding-right: 20px;
+}
+.contactus{
+    padding-top: 90px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+
+
